@@ -1,0 +1,61 @@
+.bgWhite {
+    background: white;
+
+}
+
+img {
+    transition: all ease 1s 0s;
+}
+
+
+
+
+.nav > li{
+    padding-right: 50px;
+    width: 113px;
+}
+.nav > li:hover{
+    color: greenyellow;
+    border-right: 8px solid greenyellow;
+    cursor: pointer;
+}
+.nav-active{
+    color: greenyellow;
+    border-right: 8px solid greenyellow;
+}
+
+.modal-footer {
+    /*border-top: 1px solid #e5e5e5;*/
+    padding:20px;
+    /*position: absolute;*/
+    height: 100px;
+    width: 100%;
+    text-align: right;
+    /*top: 865px;*/
+    /*margin-top: 50px;*/
+    /*bottom: 0px; */
+    /*right: 0px;*/
+    position: absolute;
+    color: gold;
+}
+.pg1_button{
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px black;
+}
+.pg1_button:hover{
+    opacity: .5;
+
+}
+.img-home:hover{
+    opacity: .5;
+}
+.img-div{
+    background: url("../images/1.png") no-repeat ;
+    background-size: 100% 200%;
+
+}
+@media print {
+    .control-group {
+        display: none;
+    }
+}
